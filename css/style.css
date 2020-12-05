@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    font: 14px Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #8dc63f;
+}
+
+.clear {
+    clear: both;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 960px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 25px 0;
+}
+
+.logo p,
+.number p,
+.number a {
+    margin: 0;
+    font-size: 22px;
+    color: #39930d;
+}
+
+.logo,
+.logo p,
+.logo img {
+    float: left;
+}
+
+.logo b {
+    display: block;
+    font-size: 44px;
+
+}
+
+.logo i,
+.number i {
+    font-size: 14px;
+    color: #5a5a5a;
+}
+
+.logo span {
+    position: relative;
+    display: inline-block;
+    margin-left: 35px;
+    width: 100px;
+    height: 100px;
+}
+
+.logo img {
+    transition: all .5s ease;
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.logo span:hover img {
+    left: 350px;
+    top: 200px;
+    transform: rotate(360deg)
+}
+
+.nogoal:hover img {
+    padding-left: 200px;
+}
+
+.number {
+    float: right;
+}
+
+.number a {
+    text-decoration: none;
+}
+
+.number i {
+    display: block;
+    text-align: right;
+}
+
+.slider {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.slider img {
+    width: 100%;
+}
+
+.slider:before {
+    content: "";
+    position: absolute;
+    width: 124px;
+    height: 152px;
+    right: -636px;
+    top: -157px;
+    background-image: url(../imgf/shtanga.png);
+    z-index: 2;
+}
+
+#win,
+#lose {
+    position: absolute;
+    display: none;
+    color: #fff;
+    left: 45%;
+    bottom: 65px;
+    font-size: 60px;
+    transform: translateX(-50%);
+}
+
+#win {
+    color: aqua;
+}
+
+#lose {
+    color: crimson;
+}
+
+.mem {
+    position: absolute;
+    bottom: 0px;
+    transition: all .5s ease;
+    transform: translateY(200px);
+}
+
+.show-mem {
+    transform: translateY(0);
+}
+
+#jecky {
+    height: 150px;
+    width: 171px;
+    left: 0;
+}
+
+#obama {
+    height: 150px;
+    width: 249px;
+    right: 0;
+}
+
+.main {
+    float: left;
+    padding-bottom: 40px;
+    max-width: 600px;
+}
+
+.main h1 {
+    font-size: 24px;
+    color: #39930d;
+}
+
+.main p {
+    line-height: 1.5em;
+    color: #343434;
+}
+
+.menu {
+    float: right;
+    width: 300px;
+}
+
+.menu p {
+    padding: 15px 20px 10px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #39930d;
+}
+
+.menu ul {
+    padding: 0 20px;
+    list-style: none;
+}
+
+menu li {
+    margin-bottom: 5px;
+}
+
+.menu a {
+    color: #39930d;
+    line-height: 24px;
+    text-transform: uppercase;
+    transition: all .5s ease;
+}
+
+.menu a:hover {
+    display: block;
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #343434;
+}
+
+.footer {
+    margin: 0 -15px;
+    padding: 17px 15px 15px;
+    color: #fff;
+    background-color: #39930d;
+}
