@@ -100,8 +100,8 @@ body {
     position: absolute;
     width: 124px;
     height: 152px;
-    right: -636px;
-    top: -157px;
+    right: 170px;          
+    top: 31px;
     background-image: url(../imgf/shtanga.png);
     z-index: 2;
 }
